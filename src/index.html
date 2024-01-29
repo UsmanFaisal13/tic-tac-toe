@@ -1,23 +1,26 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic tac toe</title>
   <link href="./output.css" rel="stylesheet">
+  <script src="index.js" defer></script>
 </head>
 <body class="bg-blue-300 flex justify-center flex-col text-center items-center ">
     <div id="container" class="mt-44">
         <h1 class="mb-16 text-5xl font-light">TIC TAC TOE</h1>
-    <div id="gamebox" class="min-h-96 w-98 bg-white border-black border grid grid-cols-3 shadow-lg">
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
-        <div class="bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors"></div>
+    <div id=gamebox class="min-h-98 w-98 bg-white border-black border grid grid-cols-3 shadow-lg">
+        <div class="cells" id="1"></div>
+        <div class="cells" id="2"></div>
+        <div class="cells" id="3"></div>
+        <div class="cells" id="4"></div>
+        <div class="cells" id="5"></div>
+        <div class="cells" id="6"></div>
+        <div class="cells" id="7"></div>
+        <div class="cells" id="8"></div>
+        <div class="cells" id="9"></div>
+        
         
     </div>
     </div>
