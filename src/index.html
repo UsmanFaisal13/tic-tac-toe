@@ -8,9 +8,11 @@
   <script src="index.js" defer></script>
 </head>
 <body class="bg-blue-300 flex justify-center flex-col text-center items-center ">
-    <div id="container" class="mt-44">
-        <h1 class="mb-16 text-5xl font-light">TIC TAC TOE</h1>
-    <div id=gamebox class="min-h-98 w-98 bg-white border-black border grid grid-cols-3 shadow-lg">
+    <h1 class="mt-16 text-5xl font-light">TIC TAC TOE</h1>
+    <div id="container" class="mt-38 ">
+        
+        <h3 class="mt-12 font-thin text-lg" id="caption">PlayerOne's Turn</h3>
+    <div id=gamebox class="mt-12 min-h-98 w-98 bg-white border-black border grid grid-cols-3 shadow-2xl">
         <div class="cells" id="1"></div>
         <div class="cells" id="2"></div>
         <div class="cells" id="3"></div>
@@ -19,10 +21,10 @@
         <div class="cells" id="6"></div>
         <div class="cells" id="7"></div>
         <div class="cells" id="8"></div>
-        <div class="cells" id="9"></div>
-        
-        
+        <div class="cells" id="9"></div>    
     </div>
+    <button id="reset" class="bg-blue-400 min-h-16 w-32 shadow-md mt-12 rounded-md font-light hover:shadow-2xl hover:mt-11 transition-all">Reset Game</button>
+
     </div>
     
 

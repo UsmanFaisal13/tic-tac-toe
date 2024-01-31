@@ -4,6 +4,6 @@
 
 @layer components {
     .cells {
-      @apply bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors flex justify-center items-center text-6xl 
+      @apply bg-white min-h-36 w-36 border-black border hover:bg-gray-300 transition-colors flex justify-center items-center text-6xl font-bold 
     }
   }
