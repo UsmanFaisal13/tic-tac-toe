@@ -7,7 +7,13 @@
   <link href="./output.css" rel="stylesheet">
   <script src="index.js" defer></script>
 </head>
-<body class="bg-blue-300 flex justify-center flex-col text-center items-center ">
+<body class="bg-blue-300 flex justify-center gap-32" >
+    <div class="pl-5">
+    
+        <input class="mt-16 text-lg font-light p-1 rounded" type="text" id="p1name" value="PlayerOne">
+        <h1 class="mt-8 text-xl">Wins:<h1 class="mt-8 text-5xl font-black" id="p1score">0</h1></h1>
+    </div>
+    <div id="supercontainer"  class="bg-blue-300 flex justify-center flex-col text-center items-center ">
     <h1 class="mt-16 text-5xl font-light">TIC TAC TOE</h1>
     <div id="container" class="mt-38 ">
         
@@ -26,6 +32,13 @@
     <button id="reset" class="bg-blue-400 min-h-16 w-32 shadow-md mt-12 rounded-md font-light hover:shadow-2xl hover:mt-11 transition-all">Reset Game</button>
 
     </div>
+</div>
+<div class="pl-5">
+    
+    <input class="mt-16 text-lg font-light p-1 rounded" type="text" value="Playertwo" id="p2name">
+    <h1 class="mt-8 text-xl">Wins:<h1 class="mt-8 text-5xl font-black" id="p2score">0</h1></h1> 
+</div>
+
     
 
 </body>
