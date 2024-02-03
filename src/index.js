@@ -5,6 +5,7 @@ const p1name = document.getElementById("p1name");
 const p1score = document.getElementById("p1score");
 const p2name = document.getElementById("p2name");
 const p2score = document.getElementById("p2score");
+const resetScore = document.getElementById("reset-score");
 
 const row = ["", "", "", "", "", "", "", "", ""];
 const players = [
@@ -27,6 +28,12 @@ function playerMove() {
 
         switchPlayer();
         checkWin();
+        resetScore.onclick = () => {
+          players[0].score = 0;
+          players[1].score = 0;
+          p1score.innerText = players[0].score;
+          p2score.innerText = players[1].score;
+        };
         reset.onclick = () => {
           row.fill("");
 
